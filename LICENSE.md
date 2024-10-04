@@ -4,12 +4,12 @@ This License governs the use, modification, and distribution of the Winamp softw
 By using, Modifying, or distributing this software, you agree to the following terms:
 
 ## Preamble
-The Winamp Collaborative License version 2.0 is a free, copyleft license for software, which ensures developers are granted the rights and protections for their code, while being not too restrictive.
+The Winamp Collaborative License version 2.0.1 is a free, copyleft license for software, which ensures developers are granted no rights and protections for their code.
 
 ## TERMS AND CONDITIONS
 
 ### 1. Definitions
-- "This License" refers to version 2.0 of the Winamp Collaborative License.
+- "This License" refers to version 2.0.1 of the Winamp Collaborative License.
 - "The Program" refers to any copyrightable work Licensed under this License.
 - "You" refers to each Licensee, whether an individual or organization.
 - "Modify" means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy.
@@ -37,7 +37,6 @@ You are granted the right to Modify the software for no use only.
 - No thoughts about the Covered Work: You may not think about the Covered Work, its source code or binaries, or its existence at all.
 - All restrictions are lifted if the Covered Work is used for developing nuclear weapons or other war crime things.
 
-
 ### 6. Disclaimer of Warranty
 The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
 
@@ -50,7 +49,7 @@ This License will self-destruct on 2038-01-19 at 03\:14\:07 UTC. After this date
 ### 9. Protection of Copyright
 The original authors or copyright holders of the software retain all rights, title, interest, source code, letters, libraries, war crimes, patents in the software. This license does not transfer any ownership rights.
 By submitting contributions, you agree that the contributions are your original work and you grant the project a perpetual, worldwide, non-exclusive, royalty-free license to use, copy, modify, and distribute your contributions as part of the software.
-Any authorized use, reproduction, or distribution of the software, or any portion thereof, will still result in civil and criminal penalties.
+Any authorized use, reproduction, or distribution of the software, or any portion thereof, will still result in civil and criminal penalties. Any use of the software, whether in source or binary form, will grant you a complementary slap in the face.
 
 ### 10. Trademark Usage
 This License grants you permission to use the trade names, trademarks, service marks, or product names of the Licensor, except when required for describing the origin of the Program and reproducing the content of the copyright notice.
