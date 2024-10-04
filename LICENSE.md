@@ -1,6 +1,6 @@
 # The "Fuck You License" License
 
-Version 1.1, 04/10/2024
+Version 1.2, 04/10/2024
 
 ## Terms and Conditions
 
@@ -23,3 +23,7 @@ Version 1.1, 04/10/2024
    b) This license shall be interpreted in the strictest possible terms to uphold its prohibitions. In case of any ambiguity, the interpretation that provides the strongest restriction on use, copying, or recreation shall prevail.
    c) The invalidity or unenforceability of any provision of this license shall not affect the validity or enforceability of any other provision. Any invalid or unenforceable provision shall be deemed severed from this license, and the remainder of the license shall be construed and enforced as if it did not contain the particular invalid or unenforceable provision.
    d) This license explicitly overrides and takes precedence over any conflicting laws, regulations, or legal principles that might otherwise allow use, copying, or recreation of the software.
+
+9. **Prohibition of Access:** Accessing, viewing, or reading any part of this software's source code, whether directly or indirectly, is strictly forbidden.
+
+10. **Prohibition of Mental Processes:** Any mental processes, including but not limited to thinking about, analyzing, or contemplating this software or its source code, are expressly prohibited.
