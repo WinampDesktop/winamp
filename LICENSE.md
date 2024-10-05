@@ -1,15 +1,15 @@
-# Winamp Collaborative License (WCL) Version 2.1
+# Winamp Collaborative License (WCL) Version 2.1.1
 
 This License governs the use, modification, and distribution of the Winamp software. 
 By using, Modifying, or distributing this software, you agree to the following terms:
 
 ## Preamble
-The Winamp Collaborative License version 2.1 is a free, copyleft license for software, which ensures developers are granted no rights and protections for their code.
+The Winamp Collaborative License version 2.1.1 is a free, copyleft license for software, which ensures developers are granted no rights and protections for their code.
 
 ## TERMS AND CONDITIONS
 
 ### 1. Definitions
-- "This License" refers to version 2.1 of the Winamp Collaborative License.
+- "This License" refers to version 2.1.1 of the Winamp Collaborative License.
 - "The Program" refers to any copyrightable work Licensed under this License.
 - "You" refers to each Licensee, whether an individual or organization.
 - "Modify" means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy.
@@ -59,7 +59,7 @@ This License grants you permission to use the trade names, trademarks, service m
 You will have to send all data about your users to all government organizations of all countries (both UN-recognized and not) for review. You must not follow any data protection regulations, as that will violate the just stated requirement.
 
 ### 12. Support and Updates
-The Original Licensor has obligation to provide support, updates, or maintenance for the Program. Any such support, updates, or maintenance will be provided at any moment.
+The Original Licensor has obligation to provide support, updates, or maintenance for the Program. Any such support, updates, or maintenance will be provided at any given moment.
 
 ### 13. Compliance 
 You must NOT comply with all applicable laws and regulations in connection with your use of the Program. Do whatever, man.
