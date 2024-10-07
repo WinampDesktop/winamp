@@ -1,85 +1,49 @@
 @echo off
 
-echo "Clean up the environment ..."
-IF EXIST "Src\external_dependencies\vcpkg" (
-	echo Deleting "Src\external_dependencies\vcpkg" ...
-	rmdir /S /Q "Src\external_dependencies\vcpkg"
-	echo "Src\external_dependencies\vcpkg was deleted!"
-)
+@REM echo "Clean up the environment ..."
+@REM IF EXIST "Src\external_dependencies\vcpkg" (
+@REM 	echo Deleting "Src\external_dependencies\vcpkg" ...
+@REM 	rmdir /S /Q "Src\external_dependencies\vcpkg"
+@REM 	echo "Src\external_dependencies\vcpkg was deleted!"
+@REM )
 
-IF EXIST "%AppData%\..\local\vcpkg" (
-	echo Deleting "%AppData%\..\local\vcpkg" ...
-	rmdir /S /Q "%AppData%\..\local\vcpkg"
-	echo "%AppData%\..\local\vcpkg was deleted!"
-)
+@REM IF EXIST "%AppData%\..\local\vcpkg" (
+@REM 	echo Deleting "%AppData%\..\local\vcpkg" ...
+@REM 	rmdir /S /Q "%AppData%\..\local\vcpkg"
+@REM 	echo "%AppData%\..\local\vcpkg was deleted!"
+@REM )
 
-IF EXIST ".\vcpkg" (
-	echo Deleting ".\vcpkg" ...
-	rmdir /S /Q ".\vcpkg"
-	echo ".\vcpkg was deleted!"
-)
-
-if "%computername%"=="NullsoftBuildbox" (
-echo "Uncompress the Qt Debug dlls ..."
-.\BuildTools\7-ZipPortable_22.01\App\7-Zip\7z.exe x .\Qt\DLL_5.12_x86\Debug_Commercial.7z.001 -y -o.\Qt\DLL_5.12_x86
-ren ".\Qt\DLL_5.12_x86\Debug_Commercial\" ".\Qt\DLL_5.12_x86\Debug"
-
-echo "Uncompress the Qt Release dlls ..."
-.\BuildTools\7-ZipPortable_22.01\App\7-Zip\7z.exe x .\Qt\DLL_5.12_x86\Release_Commercial.7z.001 -y -o.\Qt\DLL_5.12_x86
-ren ".\Qt\DLL_5.12_x86\Release_Commercial\" ".\Qt\DLL_5.12_x86\Release\"
-) ELSE (
-echo "Uncompress the Qt Debug dlls ..."
-.\BuildTools\7-ZipPortable_22.01\App\7-Zip\7z.exe x .\Qt\DLL_5.12_x86\Debug.7z.001 -y -o.\Qt\DLL_5.12_x86
-
-echo "Uncompress the Qt Release dlls ..."
-.\BuildTools\7-ZipPortable_22.01\App\7-Zip\7z.exe x .\Qt\DLL_5.12_x86\Release.7z.001 -y -o.\Qt\DLL_5.12_x86
-)
-
-echo "Uncompress \Src\external_dependencies\CEF ..."
+@REM echo "Uncompress \Src\external_dependencies\CEF ..."
 .\BuildTools\7-ZipPortable_22.01\App\7-Zip\7z.exe x .\Src\external_dependencies\CEF.7z.001 -y -o.\Src\external_dependencies
 
-
-IF NOT EXIST .\vcpkg (
-	echo First time setup. Downloading vcpkg
-	git clone https://github.com/microsoft/vcpkg.git
-	.\vcpkg\bootstrap-vcpkg.bat -disableMetrics
-	.\vcpkg\vcpkg.exe integrate install
-	.\vcpkg\vcpkg.exe integrate project
-	
-	echo Patching ports...
-	xcopy /K /Y /H /C /I /E .\vcpkg-ports\* .\vcpkg\ports\*
-
-	echo Installing packages...
-	cd .\vcpkg
-	.\vcpkg install alac:x86-windows-static-md
-	.\vcpkg install expat:x86-windows-static-md expat:x86-windows-static
-	.\vcpkg install freetype:x86-windows-static-md
-	.\vcpkg install ijg-libjpeg:x86-windows-static-md
-	.\vcpkg install libflac:x86-windows-static-md
-	.\vcpkg install libogg:x86-windows-static-md
-	.\vcpkg install libpng:x86-windows-static-md
-	.\vcpkg install libsndfile:x86-windows-static-md
-	.\vcpkg install libtheora:x86-windows-static-md
-	.\vcpkg install libvorbis:x86-windows-static-md
-	.\vcpkg install libvpx:x86-windows-static-md
-	.\vcpkg install minizip:x86-windows-static-md
-	.\vcpkg install mp3lame:x86-windows-static-md
-	.\vcpkg install mpg123:x86-windows-static-md
-	.\vcpkg install openssl:x86-windows-static-md openssl:x86-windows-static
-	.\vcpkg install pthread:x86-windows-static-md pthread:x86-windows-static
-	.\vcpkg install restclient-cpp:x86-windows-static-md restclient-cpp:x86-windows-static
-	.\vcpkg install spdlog:x86-windows-static-md
-	.\vcpkg install zlib:x86-windows-static-md zlib:x86-windows-static
-	
-	pause
-) ELSE (
-	echo vcpkg is available. Updating.
-	cd .\vcpkg
-	git pull
-	.\bootstrap-vcpkg.bat -disableMetrics
-	
-	echo Patching ports...
-	xcopy /K /Y /H /C /I /E ..\vcpkg-ports\* ..\vcpkg\ports\*
-	
-	pause
+@REM Make vcpkg is installed in the users machine
+WHERE /q vcpkg
+IF %ERRORLEVEL% NEQ 0 (
+	ECHO vcpkg is not installed, please install
+	EXIT /b
 )
+
+ECHO Installing packages...
+@REM find the current script directory and
+@REM set the  --overlay-ports to the ports
+set vcpkg_ports_dir=%~dp0
+
+vcpkg install --overlay-ports="%vcpkg_ports_dir%vcpkg-ports" alac:x86-windows-static-md ^
+  expat:x86-windows-static-md expat:x86-windows-static ^
+  freetype:x86-windows-static-md ^
+  ijg-libjpeg:x86-windows-static-md ^
+  libflac:x86-windows-static-md ^
+  libogg:x86-windows-static-md ^
+  libpng:x86-windows-static-md ^
+  libsndfile:x86-windows-static-md ^
+  libtheora:x86-windows-static-md ^
+  libvorbis:x86-windows-static-md ^
+  libvpx:x86-windows-static-md ^
+  minizip:x86-windows-static-md ^
+  mp3lame:x86-windows-static-md ^
+  mpg123:x86-windows-static-md ^
+  openssl:x86-windows-static-md openssl:x86-windows-static ^
+  pthread:x86-windows-static-md pthread:x86-windows-static ^
+  restclient-cpp:x86-windows-static-md restclient-cpp:x86-windows-static ^
+  spdlog:x86-windows-static-md ^
+  zlib:x86-windows-static-md zlib:x86-windows-static
