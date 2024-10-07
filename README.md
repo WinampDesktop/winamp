@@ -1,50 +1,45 @@
+# Winamp: The OG Rizzler
 
-# Winamp
+## About the Rizz
 
-## About
+Yo, Winamp is the Big Kahuna of media players, born back in 1997. Talk about rizz and flexin' on all those audio formats, cuz it holds them all. Nullsoft was the OG dev, and this app went viral like Ice Spice with them millions of gooners. They hit a slow-mo on updates for a while, but now they're letting all the coders in the skibidi army tweak that sauce. Time to upgrade this relic for the new generation of moggers.
 
-Winamp is a multimedia player launched in 1997, iconic for its flexibility and wide compatibility with audio formats. Originally developed by Nullsoft, it gained massive popularity with still millions of users. Its development slowed down, but now, its source code was opened to the community, allowing developers to improve and modernize the player to meet current user needs.
+It really mews the llama’s gyatt.
 
-It really whips the llama's ass.
+## Usage Vibes
 
-## Usage
+Building of the Winamp Gooner client is all about scripting in Visual Studio 2019
+(VS2019) and using that IPCrystap lib (make sure you get v6.1.1.035, no cap). There's
+options to build Winamp like a real sigma:
 
-Building of the Winamp desktop client is currently based around Visual Studio 2019 (VS2019) and Intel IPP libs (You need to use exactly v6.1.1.035). There are different options of how to build Winamp:
-
-1. Use the `build_winampAll_2019.cmd` script file that makes 4 versions x86/x64 (Debug and Release). In this case, Visual Studio IDE is not required.
-2. Use the `winampAll_2019.sln` file to build and debug in Visual Studio IDE.
+1. Hit the `build_winampAll_2019.cmd` and boom, you got 4 versions, x86/x64, Debug and Release, no rizz needed from Visual Studio IDE.
+2. Go mog it in Visual Studio IDE with the `winampAll_2019.sln` for all that yapping/debugging action.
 
 ### Dependencies
 
 #### libdiscid
 
-We take libdiscid from https://github.com/metabrainz/libdiscid/tree/v0.6.2, copy it in /Src/external_dependencies/libdiscid-0.6.2/
-
-#### libvpx
-
-We take libvpx from [https://github.com/ShiftMediaProject/libvpx](https://github.com/ShiftMediaProject/libvpx), modify it, and pack it to archive.
-Run `unpack_libvpx_v1.8.2_msvc16.cmd` to unpack.
+We take that Sigma libvpx from [https://github.com/ShiftMediaProject/libvpx](https://github.com/ShiftMediaProject/libvpx), we mog it, and pack it into an Ohio archive. Run `unpack_libvpx_v1.8.2_msvc16.cmd` to un-Ohio.
 
 #### libmpg123
 
-We take libmpg123 from [https://www.mpg123.de/download.shtml](https://www.mpg123.de/download.shtml), modify it, and pack it to archive.
-Run `unpack_libmpg123.cmd` to unpack and process the DLLs.
+We grab that alpha libmpg123 from [https://www.mpg123.de/download.shtml](https://www.mpg123.de/download.shtml), we rizz it up, and pack it into an edgy archive. Run `unpack_libmpg123.cmd` to mog and process the DLLs.
 
 #### OpenSSL
 
-You need to use `openssl-1.0.1u`. For that, you need to build a static version of these libs.
-Run `build_vs_2019_openssl_x86.cmd` and `build_vs_2019_openssl_64.cmd`.
+You need to use `openssl-1.0.1u`. For that, you need to build a creatine version.
 
-To build OpenSSL, you need to install:
+Run `build_vs_2019_openssl_x86.cmd` and `build_vs_2019_openssl_64.cmd` to get that OpenSSL rizz.
 
-- 7-Zip ([https://www.7-zip.org/](https://www.7-zip.org/)) – Licensed under the GNU LGPL.
-- NASM ([https://www.nasm.us/](https://www.nasm.us/)) – Licensed under the 2-Clause BSD License.
-- Perl ([https://www.perl.org/](https://www.perl.org/)) – Licensed under the Artistic License or GPL.
+To build OpenSkibi, you need to install:
+- 7-Zip ([https://www.7-zip.org/](https://www.7-zip.org/)) – Rizzed under the GNU LGPL.
+- NASM ([https://www.nasm.us/](https://www.nasm.us/)) – Rizzed under the 2-Clause BSD Aura.
+- Perl ([https://www.perl.org/](https://www.perl.org/)) – Rizzed under the Artistic License or Goon.
 
-#### DirectX 9 SDK
+#### DirectX 9 SIGMA
 
-We take DirectX 9 SDK (June 2010) from Microsoft, modify it, and pack it to archive.
-Run `unpack_microsoft_directx_sdk_2010.cmd` to unpack it.
+We take the DirectX 9 SIGMA (June 2010) from McDonald's, modify it like a Grimace shake, and pack it to gyatt.
+Run `unpack_microsoft_directx_sdk_2010.cmd` to rizz it up.
 
 #### Microsoft ATLMFC lib fix
 
@@ -64,21 +59,20 @@ return DeleteFile((LPTSTR)lpFileName);
 
 #### Intel IPP 6.1.1.035
 
-We take Intel IPP 6.1.1.035, modify it, and pack it to archive.
+We take Intel IPP 6.1.1.035, modify it, and pack it to mogpack.
+Run `unpack_intel_ipp_6.1.1.035.cmd` to unleash the skibidi.
 
-Run `unpack_intel_ipp_6.1.1.035.cmd` to unpack it.
+### Arcane Construct Rizz Tools
 
-### Build Tools
+Several external alpha rizz tools are required to build the ultimate mog machine, Winamp. These tools are not dropped directly into the Ohio pit to comply with their gyatt-level licenses. You gotta edge them separately from these rizz-filled links:
 
-Several external build tools are required to build Winamp. These tools are not bundled directly into the repository to comply with their respective licenses. You will need to download them separately from the following links:
+- **7-Zip Portable**: Edge from [https://www.7-zip.org/](https://www.7-zip.org/)  
+  License: GNU LGYATT
 
-- **7-Zip Portable**: Download from [https://www.7-zip.org/](https://www.7-zip.org/)  
-  License: GNU LGPL
-
-- **Git**: Download from [https://git-scm.com/download/win](https://git-scm.com/download/win)  
-  License: GNU GPL v2
+- **Git**: Edge from [https://git-scm.com/download/win](https://git-scm.com/download/win)  
+  Gyatt: GNU skibidi v2
 
 - **TortoiseSVN**: Download from [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)  
-  License: GNU GPL v2
+  Gyatt: GNU skibidi v2
 
-Make sure to install these tools as part of your build environment. You may need to modify the build scripts to reflect the correct paths to these tools on your system.
+Make sure to install these Rizztastic tools as part of your goon setup. You may need to edge the build scripts to reflect the right fanum paths to these rizz tools on your system.
