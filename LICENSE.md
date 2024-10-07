@@ -1,79 +1,76 @@
-# Winamp Collaborative License (WCL) Version 1.0.1
+# Winamp Lit AF Collab Sigma License (WCL) V1.0.1
 
-This License governs the use, modification, and distribution of the Winamp software. 
-By using, Modifying, or distributing this software, you agree to the following terms:
+Yo, this be the terms for the Winamp gang, you gotta vibe with it if you wanna use, remix, or drop copies of the sauce. By touching the sauce, you agree to the following sigma-tier grind:
 
-## Preamble
-The Winamp Collaborative License is a free, copyleft license for software and other kinds of works. It is designed to ensure that you have the freedom to use, Modify, and study the software, but with certain restrictions on the distribution of modifications to maintain the integrity and collaboration of the project.
+## Rizzamble (Preamble)
+This License ain’t just some mid. It's pure sigma move for free, open-source power. It’s got you covered to mess with, tweak, and vibe with the code, but no wildin' with them distro mods, cause we keep it 100 with the Winamp fam.
 
-## TERMS AND CONDITIONS
+## TERMS AND RIZZITIONS
 
-### 1. Definitions
-- "This License" refers to version 1.0.1 of the Winamp Collaborative License.
-- "The Program" refers to any copyrightable work Licensed under this License.
-- "You" refers to each Licensee, whether an individual or organization.
-- "Modify" means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy.
-- "Covered Work" means either the unmodified Program or a work based on the Program.
-- "Convey" means any kind of propagation that enables other parties to make or receive copies.
+### 1. The Lingo
+- "This License" = V1.0.1 of that Winamp drip.
+- "The Program" = Anything slapped under this License, big or small.
+- "You" = You, sigma, whether solo or squad.
+- "Modify" = Taking the sauce and remixing it, not just Ctrl+C, Ctrl+V, noob.
+- "Covered Work" = The OG program or anything you remix from it.
+- "Convey" = Making sure others get a slice of the drip.
 
-### 2. Basic Permissions
-All rights granted under this License are granted for the term of copyright on the Program and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The output from running a Covered work is covered by this License only if its contents constitute a Covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.
+### 2. Basic Sigma Powers
+All rights here are yours, no cap, till copyright dies. You can run the unmodded sauce without catching any heat. The output from running the Program? That’s yours if it's still rocking Winamp's vibe. No Karen vibes here, your fair use rights are locked in, fam.
 
-### 3. Grant of License
-You are granted the right to view, access, and study the source code of the software.
-You are granted the right to Modify the software for private use only. You may make, run, and propagate Covered works that you do not Convey, without conditions, so long as your License otherwise remains in force.
+### 3. The License Blessing
+Peep the source, vibe with it, and study how it do. Remix it for you only, no leaks. As long as you ain't out here tryna spread modded versions, you're gucci.
 
-### 4. Contributions
-- Contribution to Project: You are encouraged to contribute improvements, enhancements, and bug fixes back to the project. Contributions must be submitted to the official repository and will be reviewed and incorporated at the discretion of the maintainers.
-- Assignment of Rights: By submitting contributions, you agree that all intellectual property rights, including copyright, in your contributions are assigned to Winamp. You hereby grant Winamp a perpetual, worldwide, non-exclusive, royalty-free license to use, copy, modify, and distribute your contributions as part of the software, without any compensation to you.
-- Waiver of Rights: You waive any rights to claim authorship of the contributions or to object to any distortion, mutilation, or other modifications of the contributions.
+### 4. The Grind (Contributions)
+- Drop your best remix or bug fix back in the pot, we always eat. The crew checks it, then it’s in.
+- When you pull up with a contribution, Winamp keeps that, no take-backs.
+- No flexing on “I made that” when the gang mods your mods. You waive the rights, fam.
 
-### 5. Restrictions
-- No Distribution of Modified Versions: You may not distribute modified versions of the software, whether in source or binary form.
-- Official Distribution: Only the maintainers of the official repository are allowed to distribute the software and its modifications.
+### 5. Big No-No’s
+- No spreading modded sauce. Keep that remix private.
+- Official moves only from the OGs.
 
-### 6. No Sublicensing
-Sublicensing is not allowed; section 5 makes it unnecessary.
+### 6. No Sigma Subs
+No sublicenses, chief. You don’t need 'em.
 
-### 7. Protecting Users' Legal Rights From Anti-Circumvention Law
+### 7. Anti-Circumvention Shield
+No shady ops trying to lock down that Winamp vibe with DRM. Free code’s gotta stay free, no cap.
 
-No Covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.
+### 8. Sigma Disclaimer
+You get the sauce “as is,” no warranties. If it bricks your PC, tough luck, no refunds, no nothing. You can’t come for the authors, they stay untouchable.
 
-### 8. Disclaimer of Warranty
-The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+### 9. Limit of Liability
+Authors ain’t paying for any L’s you take using the sauce. Whether it messes up your biz, loses you stacks, or just ruins your vibe, that’s on you.
 
-### 9. Limitation of Liability
-In no event will the authors or copyright holders be liable for any special, incidental, indirect, or consequential damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use the software, even if the authors or copyright holders have been advised of the possibility of such damages.
+### 10. If You Flop (Termination)
+Break the code of the rizz? License done. Destroy all copies, get out of the Winamp club.
 
-### 10. Termination
-This License and the rights granted hereunder will terminate automatically if you fail to comply with the terms and conditions herein. Upon termination, you must cease all use of the software and destroy all copies, full or partial, of the software.
+### 11. Copyright Vibe Protection
+The OG creators stay the kings of their code. No takeovers. Keep all them copyright notices, no cutting corners.
 
-### 11. Protection of Copyright
-The original authors or copyright holders of the software retain all rights, title, and interest in the software. This license does not transfer any ownership rights.
-You must retain all copyright, patent, trademark, and attribution notices in the source code and documentation of the software.
-By submitting contributions, you agree that the contributions are your original work and you grant the project a perpetual, worldwide, non-exclusive, royalty-free license to use, copy, modify, and distribute your contributions as part of the software.
-Any unauthorized use, reproduction, or distribution of the software, or any portion thereof, may result in civil and criminal penalties.
+### 12. Patent Moves
+Each boss contributor gives you a free pass to their patented rizz for using and remixing their code, but if you try and sue, they cut you off faster than a bad mixtape.
 
-### 12. Patent Rights
-Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims to make, use, sell, offer for sale, import, and otherwise run, modify and propagate the contents of its contributor version.
-If you initiate litigation (including a cross-claim or counterclaim) against any party alleging that the Program or a contribution incorporated within the Program constitutes direct or contributory patent infringement, then any patent licenses granted to you under this License for that Program shall terminate as of the date such litigation is filed.
+### 13. Sigma Trademark Usage
+No rolling out here claiming you’re official with Winamp’s name unless it’s for the credits. We ain’t tryna see fake stans.
 
-### 13. Trademark Usage
-This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for describing the origin of the Program and reproducing the content of the copyright notice.
+### 14. Keep It Legal (Privacy & Data)
+You gotta respect privacy laws while using the sauce. Collecting data? Make sure your users are in the know and gave the nod.
 
-### 14. Privacy and Data Protection
-You must comply with all applicable privacy and data protection laws in connection with your use of the Program.
-If the Program collects user data, you must provide clear notice and obtain any necessary consents for such collection.
+### 15. No Free Updates
+The Winamp team ain’t obligated to keep you updated or fix your L’s. They might, if they feel like it, but don’t bank on it.
 
-### 15. Support and Updates
-The Licensor has no obligation to provide support, updates, or maintenance for the Program. Any such support, updates, or maintenance will be provided at the sole discretion of the Licensor.
+### 16. Keep It Lawful
+You best comply with the law when messing with this sauce, fam.
 
-### 16. Compliance 
-You must comply with all applicable laws and regulations in connection with your use of the Program.
+### 17. Random Rizz (Miscellaneous)
+- Legal Vibe: Belgium's the judge if things get spicy. Brussels court’s where we settle this.
+- Chop a piece of the License off? Rest still stands.
 
-### 17. Miscellaneous
-- Governing Law and Jurisdiction: This License shall be governed by and construed in accordance with the laws of Belgium. Any disputes arising out of or in connection with this License shall be subject to the exclusive jurisdiction of the courts located in Brussels, Belgium.
-- Severability: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
-By using, Modifying, or contributing to the software, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
- 
-This custom License aims to maintain the collaborative nature of the project while restricting the distribution of modified versions.
+If you using, remixing, or pulling up contributions, you’re vibing with these terms, no cap.
+
+We out here protecting the grind, no watered-down mods, keeping the collab pure. Winamp till we drop.
+
+---
+
+This joint’s hot and keeps the squad tight, no goofy remix distributions, but we still out here for the collab life. 🔥
